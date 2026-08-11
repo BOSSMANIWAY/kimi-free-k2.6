@@ -1,0 +1,9 @@
+# State
+kimi_state.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Results
+pentest_agent/results/

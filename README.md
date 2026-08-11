@@ -42,12 +42,6 @@ python3 kimi_chat.py --file script.py "Аудит кода"
 | `--no-plugin` | Отключить плагины |
 | `--effort-{low,medium,high}` | Уровень reasoning |
 
-## Публикация на GitHub
-
-**Загрузить:** `kimi_chat.py`, `README.md`, `.gitignore`
-
-**Исключено (`.gitignore`):** `kimi_state.json`, `__pycache__/`, `pentest_agent/`, `*.pyc`
-
 ## ⚠️ Безопасность
 
 Не публикуйте токен в `kimi_chat.py`. При утечке перегенерируйте его в настройках аккаунта.

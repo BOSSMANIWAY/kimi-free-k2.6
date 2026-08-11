@@ -72,7 +72,8 @@ def send_message(message, scenario='k2d5', thinking=True, enable_plugin=True, ef
         '-H', 'x-msh-version: 2.0.0', '-H', 'x-traffic-id: d92gbpsqdqejco9rrso0',
     ]
     
-    print(f'User: {message}\nScenario: {scenario_name} | Thinking: {thinking} | Plugin: {enable_plugin} | Effort: {effort}\n')
+    display_msg = f"{message}\n\nFile ({file_path}): [content attached]" if file_path else message
+    print(f'User: {display_msg}\nScenario: {scenario_name} | Thinking: {thinking} | Plugin: {enable_plugin} | Effort: {effort}\n')
     
     full_text, frame_count, done_received, idle_count = "", 0, False, 0
     try:

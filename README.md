@@ -42,11 +42,6 @@ TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
 | `--no-plugin` | Отключить плагины |
 | `--effort-{low,medium,high}` | Уровень reasoning |
 
-## Публикация на GitHub
-
-**Загрузить:** `kimi_chat.sh`, `README.md`, `.gitignore`
-
-**Исключено (`.gitignore`):** `kimi_state.json`, `__pycache__/`, `pentest_agent/`, `*.pyc`
 
 ## ⚠️ Безопасность
 

@@ -63,10 +63,10 @@ def send_message(message, scenario='k2d5', thinking=True, enable_plugin=True, ef
         '-H', 'sec-ch-ua-mobile: ?0', '-H', 'sec-ch-ua-platform: macOS',
         '-H', 'sec-fetch-dest: empty', '-H', 'sec-fetch-mode: cors', '-H', 'sec-fetch-site: same-origin',
         '-H', 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
-        '-H', 'x-language: en-US', '-H', 'x-msh-device-id: 7646412723261079043',
-        '-H', 'x-msh-platform: web', '-H', 'x-msh-session-id: 1731724216701107694',
-        '-H', 'x-msh-shield-data: sg:fk4BhWf9xSf8wCffEujQZwoz7Z',
-        '-H', 'x-msh-version: 2.0.0', '-H', 'x-traffic-id: d92gbpsqdqejco9rrso0',
+        '-H', 'x-language: en-US', '-H', 'x-msh-device-id: {:id}',
+        '-H', 'x-msh-platform: web', '-H', 'x-msh-session-id: {:id}',
+        '-H', 'x-msh-shield-data: sg:{:id}',
+        '-H', 'x-msh-version: 2.0.0', '-H', 'x-traffic-id: {:id}',
     ]
 
     display = f"{message[:100]}..." if len(message) > 100 else message
